@@ -11,4 +11,4 @@ fi
 hoursPerDay=8
 wagePerHour=20
 dailyWage=$((hoursPerDay*wagePerHour))
-echo "Daily employee wage is $dailyWage"
+echo "daily employee wage is $dailyWage"

@@ -1,4 +1,4 @@
-XisPresent=1
+isPresent=1
 checkAttendence=$((RANDOM%2))
 if [ $isPresent -eq $checkAttendence ]
 then
@@ -29,4 +29,13 @@ esac
 days=20
 monthlySalary=$((days*dailyWage))
 echo "monthly salary is $monthlySalary"
+
+days=1
+hrs=25
+while [ $days -le 20 ] && [ $hrs -le 100 ]
+do
+salary=$((days*160))
+days=$((days+1))
+done
+echo "Salary is $salary"
 

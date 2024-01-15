@@ -18,6 +18,14 @@ wagePerHour=20
 partTimeWage=$((partTimeHours*wagePerHour))
 echo "Part time wage is $partTimeWage"
 
+wage="dailywage"
+case "$wage" in
+	"dailywage") echo "daily wage is $dailyWage"
+;;
+	"parttimewage") echo "part time wage is $partTimeWage"
+;;
+esac
+
 days=20
 monthlySalary=$((days*dailyWage))
 echo "monthly salary is $monthlySalary"

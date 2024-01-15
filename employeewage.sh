@@ -1,4 +1,4 @@
-isPresent=1
+XisPresent=1
 checkAttendence=$((RANDOM%2))
 if [ $isPresent -eq $checkAttendence ]
 then
